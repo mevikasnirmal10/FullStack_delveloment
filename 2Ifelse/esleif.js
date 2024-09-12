@@ -1,13 +1,9 @@
-let  age =33;
+let age = 3;
 
-if (age>20) {
-    console.log("teenage");   
-}
-else if (age>13) {
-    console.log("chile");
-    
-}
-else{
-    console.log("adult");
-    
+if (age > 20) {
+  console.log("teenage");
+} else if (age <13) {
+  console.log("child");
+} else {
+  console.log("adult");
 }
